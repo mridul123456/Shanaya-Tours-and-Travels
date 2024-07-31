@@ -889,7 +889,7 @@ section,
   z-index: 2;
 }
 
-.carousel-img{
+.carousel-img {
   width: 100%;
   height: auto;
   background-size: cover;
@@ -898,13 +898,70 @@ section,
 
 @media (max-width: 860px) {
   .carousel-img {
-    background-image: url('../img/hero-carousel/hero-carousel-kedarnath-2.jpg');
+    background-image: url("../img/hero-carousel/hero-carousel-kedarnath-2.jpg");
   }
 }
 
 @media (min-width: 769px) {
   .carousel-img {
-    background-image: url('../img/hero-carousel/Banner_Kedarnath.jpg');
+    background-image: url("../img/hero-carousel/Banner_Kedarnath.jpg");
+  }
+}
+
+.carousel-img-1 {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 860px) {
+  .carousel-img-1 {
+    background-image: url("../img/hero-carousel/hero-carousel-badrinath-2.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-img-1 {
+    background-image: url("../img/hero-carousel/badrinath.jpeg");
+  }
+}
+
+.carousel-img-2 {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 860px) {
+  .carousel-img-2 {
+    background-image: url("../img/hero-carousel/hero-carousel-flowers-2.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-img-2 {
+    background-image: url("../img/hero-carousel/hero-carousel-flowers.jpg");
+  }
+}
+
+.carousel-img-3 {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 860px) {
+  .carousel-img-3 {
+    background-image: url("../img/hero-carousel/hero-carousel-mussorie.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-img-3 {
+    background-image: url("../img/hero-carousel/hero-carousel-kempty-fall.jpg");
   }
 }
 
@@ -2970,4 +3027,3 @@ section,
   color: #fff; /* Icon color */
   font-size: 35px; /* Adjust icon size */
 }
-
