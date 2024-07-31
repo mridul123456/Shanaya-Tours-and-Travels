@@ -889,6 +889,25 @@ section,
   z-index: 2;
 }
 
+.carousel-img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    background-image: url('../img/hero-carousel/hero-carousel-kedarnath-2.jpg');
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-img {
+    background-image: url('../img/hero-carousel/hero-carousel-kedarnath-3.jpg');
+  }
+}
+
 .hero .carousel-control-prev {
   justify-content: start;
 }
