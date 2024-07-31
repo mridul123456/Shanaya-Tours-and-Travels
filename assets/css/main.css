@@ -896,7 +896,7 @@ section,
   background-position: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .carousel-img {
     background-image: url('../img/hero-carousel/hero-carousel-kedarnath-2.jpg');
   }
@@ -904,7 +904,7 @@ section,
 
 @media (min-width: 769px) {
   .carousel-img {
-    background-image: url('../img/hero-carousel/hero-carousel-kedarnath.jpg');
+    background-image: url('../img/hero-carousel/Banner_Kedarnath.jpg');
   }
 }
 
